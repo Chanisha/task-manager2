@@ -1,18 +1,18 @@
 
-# 📝 Task Manager App (Full Stack)
+#  Task Manager App (Full Stack)
 
 A simple task manager built using **Next.js (React)** for frontend and **Express.js** for backend REST API.
 
 ---
 
-## 🚀 Features
+##  Features
 - Create, view, update, and delete tasks
 - Toggle completion
 - Real-time updates after each action
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 task-manager/
@@ -24,7 +24,7 @@ task-manager/
 
 ## 🔧 Setup Instructions
 
-### 1️⃣ Clone the repo
+###  Clone the repo
 ```bash
 git clone https://github.com/your-username/task-manager.git
 cd task-manager
@@ -32,7 +32,7 @@ cd task-manager
 
 ---
 
-### 2️⃣ Install Dependencies
+###  Install Dependencies
 
 #### Backend
 ```bash
@@ -48,7 +48,7 @@ npm install
 
 ---
 
-### 3️⃣ Start the app
+###  Start the app
 
 #### Start Backend (port 3001)
 ```bash
@@ -64,7 +64,7 @@ npm run dev
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint        | Description         |
 |--------|------------------|---------------------|
@@ -103,7 +103,7 @@ npm run dev
 
 ---
 
-## ✨ Future Improvements
+##  Future Improvements
 - Add database (MongoDB)
 - User authentication
 - Filters/sorting
