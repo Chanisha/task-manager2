@@ -95,11 +95,6 @@ npm run dev
 { "message": "Task updated successfully" }
 ```
 
----
-
-## 📸 Screenshot
-
-![Task Manager UI](https://via.placeholder.com/600x300?text=Task+Manager+UI)
 
 ---
 
