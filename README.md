@@ -103,7 +103,7 @@ npm run dev
 - User authentication
 - Filters/sorting
 
-### ✅ Why did you choose this project structure?
+### Why did you choose this project structure?
 
 I split the project into two folders: `client/` for the frontend (Next.js + Tailwind) and `server/` for the backend (Express). This just felt like the cleanest way to separate concerns — it keeps everything modular and easier to manage.
 
@@ -111,7 +111,7 @@ Having them in their own spaces means I can work on the frontend UI without worr
 
 ---
 
-### ✅ How did you separate frontend and backend concerns?
+### How did you separate frontend and backend concerns?
 
 The frontend is pretty much focused on the user experience — rendering the tasks, handling forms, and calling APIs using `axios`. It doesn’t mess with business logic or try to manage the state of tasks itself. Everything comes through HTTP calls.
 
@@ -119,7 +119,7 @@ The backend (Express) takes care of everything under the hood: storing tasks, va
 
 ---
 
-### ✅ How would you handle errors and edge cases?
+### How would you handle errors and edge cases?
 
 **On the frontend:**
 
@@ -141,7 +141,7 @@ The backend (Express) takes care of everything under the hood: storing tasks, va
 
 ---
 
-### ✅ What security features would you add in production?
+### What security features would you add in production?
 
 Some of the key things I’d set up:
 
@@ -157,7 +157,7 @@ Some of the key things I’d set up:
 
 ---
 
-### ✅ What would you improve if you had 1 full day?
+### What would you improve if you had 1 full day?
 
 **1. Persistent Storage**
 I’d swap out the in-memory task list for a real database — probably PostgreSQL — using Prisma or Sequelize. Also, I'd move away from using timestamps as IDs and generate proper UUIDs.
